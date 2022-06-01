@@ -8,7 +8,8 @@ stage('Build') {
 
 steps {
 
- sh 'javac Helloworld.java'
+ //sh 'javac Helloworld.java'
+ git url : 'https://github.com/MadhuriK-14/Jenkins.git' , branch : 'main'
 
 }
 
@@ -18,7 +19,7 @@ stage('Run') {
 
 steps {
 
- sh 'java Helloworld'
+echo 'mkmk ishi'
 }
 }
 }
