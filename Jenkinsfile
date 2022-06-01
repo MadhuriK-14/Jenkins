@@ -18,8 +18,8 @@ steps {
 stage('Run') {
 
 steps {
-
-echo 'mkmk ishi'
+ javac Helloworld.java
+ java Helloworld
 }
 }
 }
